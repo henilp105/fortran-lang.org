@@ -1,8 +1,5 @@
 # fortran-lang.org website
 
-This repository contains the source for the fortran-lang.io website. 
-It's derived from https://github.com/neovim/neovim.github.io.
-
 ## Contributing
 
 * [CONTRIBUTING](./CONTRIBUTING.md): getting started and general guidance on contributing to <https://fortran-lang.org>
