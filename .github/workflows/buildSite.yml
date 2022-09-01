@@ -69,25 +69,25 @@ jobs:
       env:  
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
-    - name: Checkout page source
-      uses: actions/checkout@v2
+#     - name: Checkout page source
+#       uses: actions/checkout@v2
       
-    - name: Setup Python
-      uses: actions/setup-python@v1
+#     - name: Setup Python
+#       uses: actions/setup-python@v1
 
-    - name: Install sphinx
-      run: pip3 install --user -r requirements.txt
+#     - name: Install sphinx
+#       run: pip3 install --user -r requirements.txt
       
-    - name: Build page
-      run: make html
+#     - name: Build page
+#       run: make html
       
-    - run: touch build/html/.nojekyll
+#     - run: touch build/html/.nojekyll
 
-    - name: Deploy documentation sphinx
-      uses: JamesIves/github-pages-deploy-action@v4.4.0
-      if: github.event_name == 'push' && github.ref == 'refs/heads/master'
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        branch: gh-pages
-        folder: build/html
-        clean: false
+#     - name: Deploy documentation sphinx
+#       uses: JamesIves/github-pages-deploy-action@v4.4.0
+#       if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+#       with:
+#         token: ${{ secrets.GITHUB_TOKEN }}
+#         branch: gh-pages
+#         folder: build/html
+#         clean: false
