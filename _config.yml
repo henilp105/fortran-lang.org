@@ -12,8 +12,6 @@ news:
     url: /news
     feed: /news.xml
 
-url: "https://fortran-lang.github.io"
-
 plugins:
 
 exclude:
