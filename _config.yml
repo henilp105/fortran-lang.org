@@ -4,6 +4,7 @@ markdown: kramdown
 
 title: Fortran Programming Language
 description: "Fortran Programming Language"
+canonical_url: 'https://fortran-lang.org'
 
 news:
     name: Fortran Newsletter
