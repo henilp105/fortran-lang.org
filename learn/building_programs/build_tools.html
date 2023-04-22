@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Fortran Programming Language">
     <title>Build tools - Fortran Programming Language</title>
-    <link type="application/atom+xml" rel="alternate" href="/fortran-lang.org/news.xml" title="Fortran Newsletter" />
+    <link type="application/atom+xml" rel="alternate" href="/news.xml" title="Fortran Newsletter" />
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/smoothness/jquery-ui.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.0/normalize.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <script src="https://unpkg.com/feather-icons"></script>
-    <link href="/fortran-lang.org/assets/css/main.css" rel="stylesheet">
-    <link href="/fortran-lang.org/assets/css/syntax.css" rel="stylesheet">
+    <link href="/assets/css/main.css" rel="stylesheet">
+    <link href="/assets/css/syntax.css" rel="stylesheet">
     <link rel="canonical" href="https://fortran-lang.org/learn/building_programs/build_tools" />
     <script src="https://kit.fontawesome.com/8d17d4fe97.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-    <link rel="stylesheet" href="/fortran-lang.org/assets/github-activity-0.1.5/github-activity-0.1.5.min.css">
+    <link rel="stylesheet" href="/assets/github-activity-0.1.5/github-activity-0.1.5.min.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
-    <script type="text/javascript" src="/fortran-lang.org/assets/github-activity-0.1.5/github-activity-0.1.5.min.js"></script>
+    <script type="text/javascript" src="/assets/github-activity-0.1.5/github-activity-0.1.5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js" integrity="sha256-TQq84xX6vkwR0Qs1qH5ADkP+MvH0W+9E7TdHJsoIQiM=" crossorigin="anonymous"></script>
     
     <!--[if lt IE 9]>
@@ -32,22 +32,16 @@
   <body>
     <header class="navbar">
 	 
-	<section class="front-section shaded purple"><div class="container">
-		
-		<h4>
-		We will be migrating to a new webpage soon. Please checkout issue <a href="https://github.com/fortran-lang/fortran-lang.org/issues/415" target="_blank">#415</a> and the <a href="https://github.com/fortran-lang/webpage" target="_blank">new repository</a> for details on the migration.
-		</h4>
-	</div></section>
     <div class="container">
         <nav class="navbar">
 	    <div class="container-fluid">
 	    <div class="navbar-header">
 		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
 		    <span class="sr-only">Toggle navigation</span>
-		    <img src="/fortran-lang.org/assets/img/icons/icon-menu.svg" alt="Toggle navigation" class="navbar-top-align">
+		    <img src="/assets/img/icons/icon-menu.svg" alt="Toggle navigation" class="navbar-top-align">
 		</button>
-		<a href="/fortran-lang.org/" class="navbar-brand">
-		    <img src="/fortran-lang.org/assets/img/fortran_logo_256x256.png" id="navbar-logo" alt="Fortran">
+		<a href="/" class="navbar-brand">
+		    <img src="/assets/img/fortran_logo_256x256.png" id="navbar-logo" alt="Fortran">
 		</a>
 	    </div>
 	    <div class="collapse navbar-collapse navbar-top-align" id="menu">
@@ -56,35 +50,35 @@
 		    
 		    <li class="current">
 		    
-		    <a href="/fortran-lang.org/learn/">Learn</a>
+		    <a href="/learn/">Learn</a>
 		    
 			</li>
 		
 		    
 		    <li>
 		    
-		    <a href="/fortran-lang.org/compilers/">Compilers</a>
+		    <a href="/compilers/">Compilers</a>
 		    
 			</li>
 		
 		    
 		    <li>
 		    
-		    <a href="/fortran-lang.org/community/">Community</a>
+		    <a href="/community/">Community</a>
 		    
 			</li>
 		
 		    
 		    <li>
 		    
-		    <a href="/fortran-lang.org/packages">Packages</a>
+		    <a href="/packages">Packages</a>
 		    
 			</li>
 		
 		    
 		    <li>
 		    
-		    <a href="/fortran-lang.org/news/">News</a>
+		    <a href="/news/">News</a>
 		    
 			</li>
 		
@@ -104,7 +98,7 @@
 			</a>
 		</li>
 		<li>
-			<a  href="/fortran-lang.org/news.xml" target="_blank">
+			<a  href="/news.xml" target="_blank">
 				<i class="fas fa-rss"></i> <i class="icon-link" >RSS Feed</i>
 			</a>
 		</li>
@@ -606,7 +600,7 @@
     
   
 
-  <a href="/fortran-lang.org/learn#book-index">
+  <a href="/learn#book-index">
     <i class="fas fa-arrow-circle-left"></i>
     Back to Learn Fortran index 
   </a>
@@ -624,7 +618,7 @@
     
     <!-- Add link to book introduction (index) -->
     
-      <li><a href="/fortran-lang.org/learn/building_programs">
+      <li><a href="/learn/building_programs">
         Introduction</a></li>
     
 
@@ -1156,7 +1150,7 @@
           
 
       
-        <li><a href="/fortran-lang.org/learn/building_programs/compiling_source">
+        <li><a href="/learn/building_programs/compiling_source">
           Compiling the source code</a></li>
       
 
@@ -1777,7 +1771,7 @@
           
 
       
-        <li><a href="/fortran-lang.org/learn/building_programs/linking_pieces">
+        <li><a href="/learn/building_programs/linking_pieces">
           Linking the objects</a></li>
       
 
@@ -2438,7 +2432,7 @@
           
 
       
-        <li><a href="/fortran-lang.org/learn/building_programs/runtime_libraries">
+        <li><a href="/learn/building_programs/runtime_libraries">
           Run-time libraries</a></li>
       
 
@@ -3011,7 +3005,7 @@
           
 
       
-        <li><a href="/fortran-lang.org/learn/building_programs/include_files">
+        <li><a href="/learn/building_programs/include_files">
           Include files and modules</a></li>
       
 
@@ -3638,7 +3632,7 @@
           
 
       
-        <li><a href="/fortran-lang.org/learn/building_programs/managing_libraries">
+        <li><a href="/learn/building_programs/managing_libraries">
           Managing libraries (static and dynamic libraries)</a></li>
       
 
@@ -4154,7 +4148,7 @@
 
       
         <li>
-          <b><a href="/fortran-lang.org/learn/building_programs/build_tools">
+          <b><a href="/learn/building_programs/build_tools">
             Build tools</a></b>
           <ul id="page-nav"></ul>
         </li>
@@ -4816,7 +4810,7 @@
           
 
       
-        <li><a href="/fortran-lang.org/learn/building_programs/project_make">
+        <li><a href="/learn/building_programs/project_make">
           An introduction to make</a></li>
       
 
@@ -5357,7 +5351,7 @@
           
 
       
-        <li><a href="/fortran-lang.org/learn/building_programs/distributing">
+        <li><a href="/learn/building_programs/distributing">
           Distributing your programs</a></li>
       
 
@@ -5380,9 +5374,7 @@
         
       </div>
 
-      <h1 id="build-tools">Build tools</h1>
-
-<p>Compiling your Fortran projects by hand can become quite complicated depending
+      <p>Compiling your Fortran projects by hand can become quite complicated depending
 on the number of source files and the interdependencies through the module.
 Supporting different compilers and linkers or different platforms can become
 increasingly complicated unless the right tools are used to automatically
@@ -5437,10 +5429,13 @@ It performs actions following rules defined in a configuration file
 called <code class="highlighter-rouge">Makefile</code> or <code class="highlighter-rouge">makefile</code>, which usually leads to compiling a program
 from the provided source code.</p>
 
-<p>::::{tip}
-For an in-depth <code class="highlighter-rouge">make</code> tutorial lookup its info page. There is an online version of this &lt;a href=“https://www.gnu.org/software/make/manual/make.html“ target=“_blank“ rel=“noopener“&gt;info page, available.
-::::
-We will start with the basics from your clean source directory. Create and open
+<div class="aside-tip">
+    
+    <p><strong>Tip:</strong> For an in-depth <code class="highlighter-rouge">make</code> tutorial lookup its info page. There is an online version of this <a href="https://www.gnu.org/software/make/manual/make.html" target="_blank" rel="noopener">info page</a>, available.</p>
+
+</div>
+
+<p>We will start with the basics from your clean source directory. Create and open
 the file <code class="highlighter-rouge">Makefile</code>, we start with a simple rule called <em>all</em>:</p>
 
 <div class="language-make highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nl">all</span><span class="o">:</span>
@@ -5458,12 +5453,17 @@ all
 the second thing to note is that <code class="highlighter-rouge">make</code> is always printing the command it is
 running, finally, we see the result of running <code class="highlighter-rouge">echo "all"</code>.</p>
 
-<p>::::{note}
-We call the entry point of our <code class="highlighter-rouge">Makefile</code> always <em>all</em> by convention, but you can choose whatever name you like.
-::::</p>
+<div class="aside-note">
+    
+    <p><strong>Note:</strong> We call the entry point of our <code class="highlighter-rouge">Makefile</code> always <em>all</em> by convention, but you can choose whatever name you like.</p>
 
-<p>::::{note}
-You should not have noticed it if your editor is working correctly,
+</div>
+
+<div class="aside-note">
+    
+    <p><strong>Note</strong></p>
+
+<p>You should not have noticed it if your editor is working correctly,
 but you have to indent the content of a rule with a tab character.
 In case you have problems running the above <code class="highlighter-rouge">Makefile</code> and see an error like</p>
 
@@ -5473,7 +5473,8 @@ In case you have problems running the above <code class="highlighter-rouge">Make
 <p>The indentation is probably not correct. In this case replace the indentation
 in the second line with a tab character.</p>
 
-<p>::::</p>
+
+</div>
 
 <p>Now we want to make our rules more complicated, therefore we add another rule:</p>
 
@@ -5490,12 +5491,16 @@ in the second line with a tab character.</p>
 variables with <code class="highlighter-rouge">:=</code>. To access the content of a variable we use the <code class="highlighter-rouge">$(...)</code>,
 note that we have to enclose the variable name in parenthesis.</p>
 
-<p>::::{note}
-The declaration of variables is usually done with <code class="highlighter-rouge">:=</code>, but <code class="highlighter-rouge">make</code> does
+<div class="aside-note">
+    
+    <p><strong>Note</strong></p>
+
+<p>The declaration of variables is usually done with <code class="highlighter-rouge">:=</code>, but <code class="highlighter-rouge">make</code> does
 support <em>recursively expanded</em> variables as well with <code class="highlighter-rouge">=</code>.
 Normally, the first kind of declaration is wanted, as they are more predictable
-and do not have a runtime overhead from the recursive expansion.
-::::</p>
+and do not have a runtime overhead from the recursive expansion.</p>
+
+</div>
 
 <p>We introduced a dependency of the rule all, namely the content of the variable
 <code class="highlighter-rouge">PROG</code>, also we modified the printout, we want to see all the dependencies
@@ -5644,8 +5649,11 @@ itself, in case you change the compiler, this will allow you to safely rebuild.<
 If you plan to use <code class="highlighter-rouge">make</code> more extensively, we have compiled a few tips
 for you as well.</p>
 
-<p>::::{tip}
-In this guide, we avoided and disabled a lot of the commonly used <code class="highlighter-rouge">make</code>
+<div class="aside-note">
+    
+    <p><strong>Note</strong></p>
+
+<p>In this guide, we avoided and disabled a lot of the commonly used <code class="highlighter-rouge">make</code>
 features that can be particularly troublesome if not used correctly, we highly
 recommend staying away from the builtin rules and variables if you do not feel
 confident working with <code class="highlighter-rouge">make</code>, but explicitly declare all variables and rules.</p>
@@ -5654,8 +5662,9 @@ confident working with <code class="highlighter-rouge">make</code>, but explicit
 workflows and to build small projects. But for larger projects, you will
 probably soon run against some of it limitations. Usually, <code class="highlighter-rouge">make</code> is therefore
 not used alone but combined with other tools to generate the <code class="highlighter-rouge">Makefile</code>
-completely or in parts.
-::::</p>
+completely or in parts.</p>
+
+</div>
 
 <h3 id="recursively-expanded-variables">Recursively expanded variables</h3>
 
@@ -5683,13 +5692,9 @@ completely fine:</p>
 
 <div class="aside-note">
     
-    <p><strong>Note:</strong></p>
+    <p><strong>Note:</strong> appending with <code class="highlighter-rouge">+=</code> to an undefined variable will produce a recursively expanded variable with this state being inherited for all further appending.</p>
 
 </div>
-
-<p>::::{tip}
-appending with <code class="highlighter-rouge">+=</code> to an undefined variable will produce a recursively expanded variable with this state being inherited for all further appending.
-::::</p>
 
 <p>While, it seems like an interesting feature to use, it tends to lead to
 surprising and unexpected outcomes. Usually, when defining variables like your
@@ -5705,9 +5710,11 @@ compiler, there is little reason to actually use the recursive expansion at all.
 <span class="nv">FFLAGS</span> <span class="o">:=</span> <span class="nv">$(include_dirs)</span> <span class="nt">-O</span>
 </code></pre></div></div>
 
-<p>::::{important}
-always think of a <code class="highlighter-rouge">Makefile</code> as a whole set of rules, it must be parsed completely before any rule can be evaluated.
-::::</p>
+<div class="aside-important">
+    
+    <p><strong>Important:</strong> always think of a <code class="highlighter-rouge">Makefile</code> as a whole set of rules, it must be parsed completely before any rule can be evaluated.</p>
+
+</div>
 
 <p>You can use whatever kind of variables you like most, mixing them should be done
 carefully, of course. It is important to be aware of the differences between the
@@ -5820,13 +5827,17 @@ to build an executable <code class="highlighter-rouge">my_prog</code> from the f
 We had not to tell <code class="highlighter-rouge">meson</code> how to build the project, it figured this out
 by itself.</p>
 
-<p>::::{note}
-<code class="highlighter-rouge">meson</code> is a cross-platform build system, the project you just specified
+<div class="aside-note">
+    
+    <p><strong>Note</strong></p>
+
+<p><code class="highlighter-rouge">meson</code> is a cross-platform build system, the project you just specified
 for your program can be used to compile binaries for your native operating
 system or to cross-compile your project for other platforms.
 Similarly, the <code class="highlighter-rouge">meson.build</code> file is portable and will work on different
-platforms as well.
-::::</p>
+platforms as well.</p>
+
+</div>
 
 <p>The documentation of <code class="highlighter-rouge">meson</code> can be found at the
 <a href="https://mesonbuild.com/" target="_blank" rel="noopener">meson-build webpage</a>.</p>
@@ -5836,13 +5847,17 @@ platforms as well.
 <p>Similar to <code class="highlighter-rouge">meson</code> CMake is a high-level build system as well and commonly
 used to build Fortran projects.</p>
 
-<p>::::{note}
-CMake follows a slightly different strategy and provides you with a complete
+<div class="aside-note">
+    
+    <p><strong>Note</strong></p>
+
+<p>CMake follows a slightly different strategy and provides you with a complete
 programming language to create your build files.
 This is has the advantage that you can do almost everything with CMake,
 but your CMake build files can also become as complex as the program you are
-building.
-::::</p>
+building.</p>
+
+</div>
 
 <p>Start by creating the file <code class="highlighter-rouge">CMakeLists.txt</code> with the content</p>
 
@@ -5917,20 +5932,24 @@ our project:</p>
 CMake knows the details how to build the executable from the specified sources,
 so we do not have to worry about the actual steps in the build process.</p>
 
-<p>::::{tip}
-CMake’s offical reference can be found at the
+<div class="aside-note">
+    
+    <p><strong>Note</strong></p>
+
+<p>CMake’s offical reference can be found at the
 &lt;a href=”https://cmake.org/cmake/help/latest/”, target=”_blank” rel=”noopener”&gt;CMake webpage&lt;/a&gt;.
 It is organised in manpages, which are also available with your local CMake
 installation as well using <code class="highlighter-rouge">man cmake</code>. While it covers all functionality of
-CMake, it sometimes covers them only very briefly.
-::::</p>
+CMake, it sometimes covers them only very briefly.</p>
+
+</div>
 
 
       <div class="container-flex">
 
         
           
-            <a href="/fortran-lang.org/learn/building_programs/managing_libraries" style="margin-right: auto;">
+            <a href="/learn/building_programs/managing_libraries" style="margin-right: auto;">
           
             <h3><i class="fas fa-arrow-circle-left"></i>
               Back
@@ -5940,7 +5959,7 @@ CMake, it sometimes covers them only very briefly.
 
         
           
-          <a href="/fortran-lang.org/learn/building_programs/project_make"
+          <a href="/learn/building_programs/project_make"
           style="margin-left: auto;">
             <h3>
               Next
@@ -5962,27 +5981,27 @@ CMake, it sometimes covers them only very briefly.
   <div class="container">
     <div class="col-wide">
     
-      <a href="/fortran-lang.org/learn/">Learn</a>
+      <a href="/learn/">Learn</a>
       
         &middot;
       
     
-      <a href="/fortran-lang.org/compilers/">Compilers</a>
+      <a href="/compilers/">Compilers</a>
       
         &middot;
       
     
-      <a href="/fortran-lang.org/community/">Community</a>
+      <a href="/community/">Community</a>
       
         &middot;
       
     
-      <a href="/fortran-lang.org/packages">Packages</a>
+      <a href="/packages">Packages</a>
       
         &middot;
       
     
-      <a href="/fortran-lang.org/news/">News</a>
+      <a href="/news/">News</a>
       
     
     </div>
@@ -5999,11 +6018,11 @@ CMake, it sometimes covers them only very briefly.
      
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="/fortran-lang.org/assets/js/fortranlang.js"></script>
-    <script src="/fortran-lang.org/assets/js/page_nav.js"></script>
-    <script src="/fortran-lang.org/assets/js/gh-contributors.js"></script>
-    <script src="/fortran-lang.org/assets/js/package_search.js"></script>
-    <script src="/fortran-lang.org/assets/js/package_tags.js"></script>
+    <script src="/assets/js/fortranlang.js"></script>
+    <script src="/assets/js/page_nav.js"></script>
+    <script src="/assets/js/gh-contributors.js"></script>
+    <script src="/assets/js/package_search.js"></script>
+    <script src="/assets/js/package_tags.js"></script>
     <script>
       feather.replace()
     </script>

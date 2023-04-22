@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Fortran Programming Language">
     <title>Derived types - Fortran Programming Language</title>
-    <link type="application/atom+xml" rel="alternate" href="/fortran-lang.org/news.xml" title="Fortran Newsletter" />
+    <link type="application/atom+xml" rel="alternate" href="/news.xml" title="Fortran Newsletter" />
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/smoothness/jquery-ui.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.0/normalize.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <script src="https://unpkg.com/feather-icons"></script>
-    <link href="/fortran-lang.org/assets/css/main.css" rel="stylesheet">
-    <link href="/fortran-lang.org/assets/css/syntax.css" rel="stylesheet">
+    <link href="/assets/css/main.css" rel="stylesheet">
+    <link href="/assets/css/syntax.css" rel="stylesheet">
     <link rel="canonical" href="https://fortran-lang.org/learn/quickstart/derived_types" />
     <script src="https://kit.fontawesome.com/8d17d4fe97.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-    <link rel="stylesheet" href="/fortran-lang.org/assets/github-activity-0.1.5/github-activity-0.1.5.min.css">
+    <link rel="stylesheet" href="/assets/github-activity-0.1.5/github-activity-0.1.5.min.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
-    <script type="text/javascript" src="/fortran-lang.org/assets/github-activity-0.1.5/github-activity-0.1.5.min.js"></script>
+    <script type="text/javascript" src="/assets/github-activity-0.1.5/github-activity-0.1.5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js" integrity="sha256-TQq84xX6vkwR0Qs1qH5ADkP+MvH0W+9E7TdHJsoIQiM=" crossorigin="anonymous"></script>
     
     <!--[if lt IE 9]>
@@ -32,22 +32,16 @@
   <body>
     <header class="navbar">
 	 
-	<section class="front-section shaded purple"><div class="container">
-		
-		<h4>
-		We will be migrating to a new webpage soon. Please checkout issue <a href="https://github.com/fortran-lang/fortran-lang.org/issues/415" target="_blank">#415</a> and the <a href="https://github.com/fortran-lang/webpage" target="_blank">new repository</a> for details on the migration.
-		</h4>
-	</div></section>
     <div class="container">
         <nav class="navbar">
 	    <div class="container-fluid">
 	    <div class="navbar-header">
 		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
 		    <span class="sr-only">Toggle navigation</span>
-		    <img src="/fortran-lang.org/assets/img/icons/icon-menu.svg" alt="Toggle navigation" class="navbar-top-align">
+		    <img src="/assets/img/icons/icon-menu.svg" alt="Toggle navigation" class="navbar-top-align">
 		</button>
-		<a href="/fortran-lang.org/" class="navbar-brand">
-		    <img src="/fortran-lang.org/assets/img/fortran_logo_256x256.png" id="navbar-logo" alt="Fortran">
+		<a href="/" class="navbar-brand">
+		    <img src="/assets/img/fortran_logo_256x256.png" id="navbar-logo" alt="Fortran">
 		</a>
 	    </div>
 	    <div class="collapse navbar-collapse navbar-top-align" id="menu">
@@ -56,35 +50,35 @@
 		    
 		    <li class="current">
 		    
-		    <a href="/fortran-lang.org/learn/">Learn</a>
+		    <a href="/learn/">Learn</a>
 		    
 			</li>
 		
 		    
 		    <li>
 		    
-		    <a href="/fortran-lang.org/compilers/">Compilers</a>
+		    <a href="/compilers/">Compilers</a>
 		    
 			</li>
 		
 		    
 		    <li>
 		    
-		    <a href="/fortran-lang.org/community/">Community</a>
+		    <a href="/community/">Community</a>
 		    
 			</li>
 		
 		    
 		    <li>
 		    
-		    <a href="/fortran-lang.org/packages">Packages</a>
+		    <a href="/packages">Packages</a>
 		    
 			</li>
 		
 		    
 		    <li>
 		    
-		    <a href="/fortran-lang.org/news/">News</a>
+		    <a href="/news/">News</a>
 		    
 			</li>
 		
@@ -104,7 +98,7 @@
 			</a>
 		</li>
 		<li>
-			<a  href="/fortran-lang.org/news.xml" target="_blank">
+			<a  href="/news.xml" target="_blank">
 				<i class="fas fa-rss"></i> <i class="icon-link" >RSS Feed</i>
 			</a>
 		</li>
@@ -610,7 +604,7 @@
     
   
 
-  <a href="/fortran-lang.org/learn#book-index">
+  <a href="/learn#book-index">
     <i class="fas fa-arrow-circle-left"></i>
     Back to Learn Fortran index 
   </a>
@@ -628,7 +622,7 @@
     
     <!-- Add link to book introduction (index) -->
     
-      <li><a href="/fortran-lang.org/learn/quickstart">
+      <li><a href="/learn/quickstart">
         Introduction</a></li>
     
 
@@ -1194,7 +1188,7 @@
           
 
       
-        <li><a href="/fortran-lang.org/learn/quickstart/hello_world">
+        <li><a href="/learn/quickstart/hello_world">
           Hello world</a></li>
       
 
@@ -1881,7 +1875,7 @@
           
 
       
-        <li><a href="/fortran-lang.org/learn/quickstart/variables">
+        <li><a href="/learn/quickstart/variables">
           Variables</a></li>
       
 
@@ -2392,7 +2386,7 @@
           
 
       
-        <li><a href="/fortran-lang.org/learn/quickstart/arrays_strings">
+        <li><a href="/learn/quickstart/arrays_strings">
           Arrays and strings</a></li>
       
 
@@ -3035,7 +3029,7 @@
           
 
       
-        <li><a href="/fortran-lang.org/learn/quickstart/operators_control_flow">
+        <li><a href="/learn/quickstart/operators_control_flow">
           Operators and flow control</a></li>
       
 
@@ -3682,7 +3676,7 @@
           
 
       
-        <li><a href="/fortran-lang.org/learn/quickstart/organising_code">
+        <li><a href="/learn/quickstart/organising_code">
           Organising code structure</a></li>
       
 
@@ -4220,7 +4214,7 @@
 
       
         <li>
-          <b><a href="/fortran-lang.org/learn/quickstart/derived_types">
+          <b><a href="/learn/quickstart/derived_types">
             Derived types</a></b>
           <ul id="page-nav"></ul>
         </li>
@@ -4248,8 +4242,7 @@
         
       </div>
 
-      <h1 id="derived-types">Derived Types</h1>
-<p>As discussed previously in <a href="variables">Variables</a>, there are five built-in data types in Fortran. A <em>derived type</em> is a special form of data type that can encapsulate other built-in types as well as other derived types. It could be considered equivalent to <em>struct</em> in the C and C++ programming languages.</p>
+      <p>As discussed previously in <a href="/learn/quickstart/variables">Variables</a>, there are five built-in data types in Fortran. A <em>derived type</em> is a special form of data type that can encapsulate other built-in types as well as other derived types. It could be considered equivalent to <em>struct</em> in the C and C++ programming languages.</p>
 
 <h2 id="a-quick-take-on-derived-types">A quick take on derived types</h2>
 
@@ -4269,9 +4262,11 @@
 </span><span class="n">pair</span><span class="o">%</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.5</span><span class="w">
 </span></code></pre></div></div>
 
-<blockquote>
-  <p>The percentage symbol <code class="highlighter-rouge">%</code> is used to access the members of a derived type.</p>
-</blockquote>
+<div class="aside-note">
+    
+    <p><strong>Note:</strong> The percentage symbol <code class="highlighter-rouge">%</code> is used to access the members of a derived type.</p>
+
+</div>
 
 <p>In the above snippet, we declared an instance of a derived type and initialized its members explicitly.
 You can also initialize derived type members by invoking the derived type constructor.</p>
@@ -4318,9 +4313,11 @@ end type
   <li><code class="highlighter-rouge">abstract</code> – an object oriented feature that is covered in the advanced programming tutorial</li>
 </ul>
 
-<blockquote>
-  <p>If the attribute <code class="highlighter-rouge">bind(c)</code> or the statement <code class="highlighter-rouge">sequence</code> is used, then a derived type cannot have the attribute <code class="highlighter-rouge">extends</code> and vice versa.</p>
-</blockquote>
+<div class="aside-note">
+    
+    <p><strong>Note:</strong> If the attribute <code class="highlighter-rouge">bind(c)</code> or the statement <code class="highlighter-rouge">sequence</code> is used, then a derived type cannot have the attribute <code class="highlighter-rouge">extends</code> and vice versa.</p>
+
+</div>
 
 <p>The <code class="highlighter-rouge">sequence</code> attribute may be used only to declare that the following  members should be accessed in the same order as they are defined within the derived type.</p>
 
@@ -4334,9 +4331,11 @@ end type
 </span><span class="k">type</span><span class="p">(</span><span class="n">t_pair</span><span class="p">)</span><span class="w"> </span><span class="p">::</span><span class="w"> </span><span class="n">pair</span><span class="w">
 </span><span class="n">pair</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">t_pair</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mf">0.5</span><span class="p">)</span><span class="w">
 </span></code></pre></div></div>
-<blockquote>
-  <p>The use of the statement <code class="highlighter-rouge">sequence</code> presupposes that the data types defined below are neither of <code class="highlighter-rouge">allocatable</code> nor of <code class="highlighter-rouge">pointer</code> type. Furthermore, it does not imply that these data types will be stored in memory in any particular form, i.e., there is no relation to the <code class="highlighter-rouge">contiguous</code> attribute.</p>
-</blockquote>
+<div class="aside-note">
+    
+    <p><strong>Note:</strong> The use of the statement <code class="highlighter-rouge">sequence</code> presupposes that the data types defined below are neither of <code class="highlighter-rouge">allocatable</code> nor of <code class="highlighter-rouge">pointer</code> type. Furthermore, it does not imply that these data types will be stored in memory in any particular form, i.e., there is no relation to the <code class="highlighter-rouge">contiguous</code> attribute.</p>
+
+</div>
 
 <p>The <em>access-type</em> attributes <code class="highlighter-rouge">public</code> and <code class="highlighter-rouge">private</code>, if used, declare that all member-variables declared below will be automatically assigned the attribute accordingly.</p>
 
@@ -4358,9 +4357,11 @@ end type
   <span class="kt">int</span> <span class="n">i</span><span class="p">;</span>
 <span class="p">};</span>
 </code></pre></div></div>
-<blockquote>
-  <p>A fortran derived type with the attribute <code class="highlighter-rouge">bind(c)</code> cannot have the <code class="highlighter-rouge">sequence</code> and <code class="highlighter-rouge">extends</code> attributes. Furthermore it cannot contain any Fortran <code class="highlighter-rouge">pointer</code> or <code class="highlighter-rouge">allocatable</code> types.</p>
-</blockquote>
+<div class="aside-note">
+    
+    <p><strong>Note:</strong> A fortran derived type with the attribute <code class="highlighter-rouge">bind(c)</code> cannot have the <code class="highlighter-rouge">sequence</code> and <code class="highlighter-rouge">extends</code> attributes. Furthermore it cannot contain any Fortran <code class="highlighter-rouge">pointer</code> or <code class="highlighter-rouge">allocatable</code> types.</p>
+
+</div>
 
 <p><code class="highlighter-rouge">parameterized-declaration-list</code> is an optional feature. If used, then the parameters must be listed in place of <code class="highlighter-rouge">[parameterized-definition-statements]</code> and must be either <code class="highlighter-rouge">len</code> or <code class="highlighter-rouge">kind</code> parameters or both.</p>
 
@@ -4385,13 +4386,17 @@ end type
 
 </span><span class="k">end</span><span class="w"> </span><span class="k">program</span><span class="w"> </span><span class="n">test_matrix</span><span class="w">
 </span></code></pre></div></div>
-<blockquote>
-  <p>In this example the parameter <code class="highlighter-rouge">k</code> has already been assigned a default value of <code class="highlighter-rouge">kind(0.0)</code> (single-precision floating-point). Therefore, it can be omitted, as is the case here in the declaration inside the main program.</p>
-</blockquote>
+<div class="aside-note">
+    
+    <p><strong>Note:</strong> In this example the parameter <code class="highlighter-rouge">k</code> has already been assigned a default value of <code class="highlighter-rouge">kind(0.0)</code> (single-precision floating-point). Therefore, it can be omitted, as is the case here in the declaration inside the main program.</p>
 
-<blockquote>
-  <p>By default, derived types and their members are public. However, in this example, the attribute <code class="highlighter-rouge">private</code> is used at the beginning of the module. Therefore, everything within the module will be by default <code class="highlighter-rouge">private</code> unless explicitly declared as <code class="highlighter-rouge">public</code>. If the type <code class="highlighter-rouge">t_matrix</code> was not given the attribute <code class="highlighter-rouge">public</code> in the above example, then the compiler would throw an error inside <code class="highlighter-rouge">program test</code>.</p>
-</blockquote>
+</div>
+
+<div class="aside-important">
+    
+    <p><strong>Important:</strong> By default, derived types and their members are public. However, in this example, the attribute <code class="highlighter-rouge">private</code> is used at the beginning of the module. Therefore, everything within the module will be by default <code class="highlighter-rouge">private</code> unless explicitly declared as <code class="highlighter-rouge">public</code>. If the type <code class="highlighter-rouge">t_matrix</code> was not given the attribute <code class="highlighter-rouge">public</code> in the above example, then the compiler would throw an error inside <code class="highlighter-rouge">program test</code>.</p>
+
+</div>
 
 <p>The attribute <code class="highlighter-rouge">extends</code> was added in the F2003 standard and introduces an important feature of the object oriented paradigm (OOP), namely inheritance. It allows code reusability by letting child types derive from extensible parent types: <code class="highlighter-rouge">type, extends(parent) :: child</code>. Here, <code class="highlighter-rouge">child</code> inherits all the members and functionality from <code class="highlighter-rouge">type :: parent</code>.</p>
 
@@ -4491,17 +4496,21 @@ end type
 </span><span class="k">end</span><span class="w"> </span><span class="k">type</span><span class="w">
 </span></code></pre></div></div>
 
-<blockquote>
-  <p>The following attributes: <code class="highlighter-rouge">pointer</code>, <code class="highlighter-rouge">codimension</code>, <code class="highlighter-rouge">contiguous</code>, <code class="highlighter-rouge">volatile</code>, <code class="highlighter-rouge">asynchronous</code> are advanced features that will not be addressed in the <em>Quickstart</em> tutorial. However, they are presented here, in order for the readers to know that these features do exist and be able to recognize them. These features will be covered in detail in the upcoming <em>Advanced programing</em> mini-book.</p>
-</blockquote>
+<div class="aside-note">
+    
+    <p><strong>Note:</strong> The following attributes: <code class="highlighter-rouge">pointer</code>, <code class="highlighter-rouge">codimension</code>, <code class="highlighter-rouge">contiguous</code>, <code class="highlighter-rouge">volatile</code>, <code class="highlighter-rouge">asynchronous</code> are advanced features that will not be addressed in the <em>Quickstart</em> tutorial. However, they are presented here, in order for the readers to know that these features do exist and be able to recognize them. These features will be covered in detail in the upcoming <em>Advanced programing</em> mini-book.</p>
+
+</div>
 
 <h2 id="type-bound-procedures">Type-bound procedures</h2>
 
 <p>A derived type can contain functions or subroutines that are <em>bound</em> to it. We’ll refer to them as <em>type-bound procedures</em>. Type-bound procedures follow the <code class="highlighter-rouge">contains</code> statement that, in turn, follows all member variable declarations.</p>
 
-<blockquote>
-  <p>It is impossible to describe type-bound procedures in full without delving into OOP features of modern Fortran. For now we’ll focus on a simple example to show their basic use.</p>
-</blockquote>
+<div class="aside-note">
+    
+    <p><strong>Note:</strong> It is impossible to describe type-bound procedures in full without delving into OOP features of modern Fortran. For now we’ll focus on a simple example to show their basic use.</p>
+
+</div>
 
 <p>Here’s an example of a derived type with a basic type-bound procedure:</p>
 
@@ -4581,7 +4590,7 @@ end type
 
         
           
-            <a href="/fortran-lang.org/learn/quickstart/organising_code" style="margin-right: auto;">
+            <a href="/learn/quickstart/organising_code" style="margin-right: auto;">
           
             <h3><i class="fas fa-arrow-circle-left"></i>
               Back
@@ -4605,27 +4614,27 @@ end type
   <div class="container">
     <div class="col-wide">
     
-      <a href="/fortran-lang.org/learn/">Learn</a>
+      <a href="/learn/">Learn</a>
       
         &middot;
       
     
-      <a href="/fortran-lang.org/compilers/">Compilers</a>
+      <a href="/compilers/">Compilers</a>
       
         &middot;
       
     
-      <a href="/fortran-lang.org/community/">Community</a>
+      <a href="/community/">Community</a>
       
         &middot;
       
     
-      <a href="/fortran-lang.org/packages">Packages</a>
+      <a href="/packages">Packages</a>
       
         &middot;
       
     
-      <a href="/fortran-lang.org/news/">News</a>
+      <a href="/news/">News</a>
       
     
     </div>
@@ -4642,11 +4651,11 @@ end type
      
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="/fortran-lang.org/assets/js/fortranlang.js"></script>
-    <script src="/fortran-lang.org/assets/js/page_nav.js"></script>
-    <script src="/fortran-lang.org/assets/js/gh-contributors.js"></script>
-    <script src="/fortran-lang.org/assets/js/package_search.js"></script>
-    <script src="/fortran-lang.org/assets/js/package_tags.js"></script>
+    <script src="/assets/js/fortranlang.js"></script>
+    <script src="/assets/js/page_nav.js"></script>
+    <script src="/assets/js/gh-contributors.js"></script>
+    <script src="/assets/js/package_search.js"></script>
+    <script src="/assets/js/package_tags.js"></script>
     <script>
       feather.replace()
     </script>

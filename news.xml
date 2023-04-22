@@ -4,7 +4,7 @@
     <title type="text" xml:lang="en">Fortran Newsletter</title>
     <link type="application/atom+xml" href="https://fortran-lang.org/news.xml" rel="self"/>
     <link type="text" href="https://fortran-lang.org/news" rel="alternate"/>
-    <updated>2023-01-31T14:56:20+00:00</updated>
+    <updated>2023-04-22T15:16:54+00:00</updated>
     <id>/news</id>
     <author>
         <name></name>
@@ -2333,7 +2333,7 @@ You can watch the recording below:
     &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NSvL2yrefH8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
   &lt;/li&gt;
   &lt;li&gt;We also wrote a review of the Fortran-lang projects in 2021. Read it
-&lt;a href=&quot;/fortran-lang.org/newsletter/2021/12/29/Fortran-lang-2021-in-review/&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;a href=&quot;/newsletter/2021/12/29/Fortran-lang-2021-in-review/&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;As usual, subscribe to the &lt;a href=&quot;https://groups.io/g/fortran-lang&quot;&gt;mailing list&lt;/a&gt; and/or
@@ -2505,7 +2505,7 @@ If any of these projects interest you, please join us.&lt;/p&gt;
 
 &lt;center&gt;
 &lt;a href=&quot;https://lfortran.org&quot;&gt;
-&lt;img src=&quot;/fortran-lang.org/assets/img/Fortran-lang-2021-in-review/lfortran-logo-300x300.png&quot; /&gt;
+&lt;img src=&quot;/assets/img/Fortran-lang-2021-in-review/lfortran-logo-300x300.png&quot; /&gt;
 &lt;/a&gt;
 &lt;/center&gt;
 
@@ -2607,7 +2607,7 @@ fpm&lt;/li&gt;
 
 &lt;center&gt;
 &lt;a href=&quot;https://fpm.fortran-lang.org&quot;&gt;
-&lt;img src=&quot;/fortran-lang.org/assets/img/Fortran-lang-2021-in-review/fpm-docs.png&quot; width=&quot;100%&quot; /&gt;
+&lt;img src=&quot;/assets/img/Fortran-lang-2021-in-review/fpm-docs.png&quot; width=&quot;100%&quot; /&gt;
 &lt;/a&gt;
 &lt;/center&gt;
 
@@ -2686,7 +2686,7 @@ Laurence Kedward, Arjen Markus, Ivan Pribec, and Jérémie Vandenplas
 
 &lt;center&gt;
 &lt;a href=&quot;https://arxiv.org/abs/2109.07382&quot;&gt;
-&lt;img width=&quot;600&quot; src=&quot;/fortran-lang.org/assets/img/Fortran-lang-2021-in-review/fortran-lang-paper.png&quot; /&gt;
+&lt;img width=&quot;600&quot; src=&quot;/assets/img/Fortran-lang-2021-in-review/fortran-lang-paper.png&quot; /&gt;
 &lt;/a&gt;
 &lt;/center&gt;
 

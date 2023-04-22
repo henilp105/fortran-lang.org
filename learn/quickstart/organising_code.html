@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Fortran Programming Language">
     <title>Organising code structure - Fortran Programming Language</title>
-    <link type="application/atom+xml" rel="alternate" href="/fortran-lang.org/news.xml" title="Fortran Newsletter" />
+    <link type="application/atom+xml" rel="alternate" href="/news.xml" title="Fortran Newsletter" />
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/smoothness/jquery-ui.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.0/normalize.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <script src="https://unpkg.com/feather-icons"></script>
-    <link href="/fortran-lang.org/assets/css/main.css" rel="stylesheet">
-    <link href="/fortran-lang.org/assets/css/syntax.css" rel="stylesheet">
+    <link href="/assets/css/main.css" rel="stylesheet">
+    <link href="/assets/css/syntax.css" rel="stylesheet">
     <link rel="canonical" href="https://fortran-lang.org/learn/quickstart/organising_code" />
     <script src="https://kit.fontawesome.com/8d17d4fe97.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-    <link rel="stylesheet" href="/fortran-lang.org/assets/github-activity-0.1.5/github-activity-0.1.5.min.css">
+    <link rel="stylesheet" href="/assets/github-activity-0.1.5/github-activity-0.1.5.min.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
-    <script type="text/javascript" src="/fortran-lang.org/assets/github-activity-0.1.5/github-activity-0.1.5.min.js"></script>
+    <script type="text/javascript" src="/assets/github-activity-0.1.5/github-activity-0.1.5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js" integrity="sha256-TQq84xX6vkwR0Qs1qH5ADkP+MvH0W+9E7TdHJsoIQiM=" crossorigin="anonymous"></script>
     
     <!--[if lt IE 9]>
@@ -32,22 +32,16 @@
   <body>
     <header class="navbar">
 	 
-	<section class="front-section shaded purple"><div class="container">
-		
-		<h4>
-		We will be migrating to a new webpage soon. Please checkout issue <a href="https://github.com/fortran-lang/fortran-lang.org/issues/415" target="_blank">#415</a> and the <a href="https://github.com/fortran-lang/webpage" target="_blank">new repository</a> for details on the migration.
-		</h4>
-	</div></section>
     <div class="container">
         <nav class="navbar">
 	    <div class="container-fluid">
 	    <div class="navbar-header">
 		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
 		    <span class="sr-only">Toggle navigation</span>
-		    <img src="/fortran-lang.org/assets/img/icons/icon-menu.svg" alt="Toggle navigation" class="navbar-top-align">
+		    <img src="/assets/img/icons/icon-menu.svg" alt="Toggle navigation" class="navbar-top-align">
 		</button>
-		<a href="/fortran-lang.org/" class="navbar-brand">
-		    <img src="/fortran-lang.org/assets/img/fortran_logo_256x256.png" id="navbar-logo" alt="Fortran">
+		<a href="/" class="navbar-brand">
+		    <img src="/assets/img/fortran_logo_256x256.png" id="navbar-logo" alt="Fortran">
 		</a>
 	    </div>
 	    <div class="collapse navbar-collapse navbar-top-align" id="menu">
@@ -56,35 +50,35 @@
 		    
 		    <li class="current">
 		    
-		    <a href="/fortran-lang.org/learn/">Learn</a>
+		    <a href="/learn/">Learn</a>
 		    
 			</li>
 		
 		    
 		    <li>
 		    
-		    <a href="/fortran-lang.org/compilers/">Compilers</a>
+		    <a href="/compilers/">Compilers</a>
 		    
 			</li>
 		
 		    
 		    <li>
 		    
-		    <a href="/fortran-lang.org/community/">Community</a>
+		    <a href="/community/">Community</a>
 		    
 			</li>
 		
 		    
 		    <li>
 		    
-		    <a href="/fortran-lang.org/packages">Packages</a>
+		    <a href="/packages">Packages</a>
 		    
 			</li>
 		
 		    
 		    <li>
 		    
-		    <a href="/fortran-lang.org/news/">News</a>
+		    <a href="/news/">News</a>
 		    
 			</li>
 		
@@ -104,7 +98,7 @@
 			</a>
 		</li>
 		<li>
-			<a  href="/fortran-lang.org/news.xml" target="_blank">
+			<a  href="/news.xml" target="_blank">
 				<i class="fas fa-rss"></i> <i class="icon-link" >RSS Feed</i>
 			</a>
 		</li>
@@ -608,7 +602,7 @@
     
   
 
-  <a href="/fortran-lang.org/learn#book-index">
+  <a href="/learn#book-index">
     <i class="fas fa-arrow-circle-left"></i>
     Back to Learn Fortran index 
   </a>
@@ -626,7 +620,7 @@
     
     <!-- Add link to book introduction (index) -->
     
-      <li><a href="/fortran-lang.org/learn/quickstart">
+      <li><a href="/learn/quickstart">
         Introduction</a></li>
     
 
@@ -1192,7 +1186,7 @@
           
 
       
-        <li><a href="/fortran-lang.org/learn/quickstart/hello_world">
+        <li><a href="/learn/quickstart/hello_world">
           Hello world</a></li>
       
 
@@ -1879,7 +1873,7 @@
           
 
       
-        <li><a href="/fortran-lang.org/learn/quickstart/variables">
+        <li><a href="/learn/quickstart/variables">
           Variables</a></li>
       
 
@@ -2390,7 +2384,7 @@
           
 
       
-        <li><a href="/fortran-lang.org/learn/quickstart/arrays_strings">
+        <li><a href="/learn/quickstart/arrays_strings">
           Arrays and strings</a></li>
       
 
@@ -3033,7 +3027,7 @@
           
 
       
-        <li><a href="/fortran-lang.org/learn/quickstart/operators_control_flow">
+        <li><a href="/learn/quickstart/operators_control_flow">
           Operators and flow control</a></li>
       
 
@@ -3681,7 +3675,7 @@
 
       
         <li>
-          <b><a href="/fortran-lang.org/learn/quickstart/organising_code">
+          <b><a href="/learn/quickstart/organising_code">
             Organising code structure</a></b>
           <ul id="page-nav"></ul>
         </li>
@@ -4223,7 +4217,7 @@
           
 
       
-        <li><a href="/fortran-lang.org/learn/quickstart/derived_types">
+        <li><a href="/learn/quickstart/derived_types">
           Derived types</a></li>
       
 
@@ -4246,9 +4240,7 @@
         
       </div>
 
-      <h1 id="organising-code">Organising Code</h1>
-
-<p>Most programming languages allow you to collect commonly-used code into
+      <p>Most programming languages allow you to collect commonly-used code into
 <em>procedures</em> that can be reused by <em>calling</em> them from other sections of code.</p>
 
 <p>Fortran has two forms of procedure:</p>
@@ -4261,7 +4253,7 @@
 <p>Both subroutines and functions have access to variables in the parent scope by <em>argument association</em>;
 unless the <code class="highlighter-rouge">value</code> attribute is specified, this is similar to call by reference.</p>
 
-<h1 id="subroutines">Subroutines</h1>
+<h2 id="subroutines">Subroutines</h2>
 
 <p>The subroutine input arguments, known as <em>dummy arguments</em>, are specified in parentheses after the subroutine name;
 the dummy argument types and attributes are declared within the body of the subroutine just like local variables.</p>
@@ -4288,10 +4280,12 @@ the dummy argument types and attributes are declared within the body of the subr
 is ‘‘read-only’’ (<code class="highlighter-rouge">intent(in)</code>) ‘‘write-only’’ (<code class="highlighter-rouge">intent(out)</code>) or ‘‘read-write’’ (<code class="highlighter-rouge">intent(inout)</code>) within the procedure.
 In this example, the subroutine does not modify its arguments, hence all arguments are <code class="highlighter-rouge">intent(in)</code>.</p>
 
-<blockquote>
-  <p>It is good practice to always specify the <code class="highlighter-rouge">intent</code> attribute for
+<div class="aside-tip">
+    
+    <p><strong>Tip:</strong> It is good practice to always specify the <code class="highlighter-rouge">intent</code> attribute for
 dummy arguments; this allows the compiler to check for unintentional errors and provides self-documentation.</p>
-</blockquote>
+
+</div>
 
 <p>We can call this subroutine from a program using a <code class="highlighter-rouge">call</code> statement:</p>
 <div class="language-fortran highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">program</span><span class="w"> </span><span class="n">call_sub</span><span class="w">
@@ -4306,10 +4300,12 @@ dummy arguments; this allows the compiler to check for unintentional errors and 
 </span><span class="k">end</span><span class="w"> </span><span class="k">program</span><span class="w"> </span><span class="n">call_sub</span><span class="w">
 </span></code></pre></div></div>
 
-<blockquote>
-  <p>This example uses a so-called <em>explicit-shape</em> array argument since we have passed additional variables to describe
+<div class="aside-note">
+    
+    <p><strong>Note:</strong> This example uses a so-called <em>explicit-shape</em> array argument since we have passed additional variables to describe
 the dimensions of the array <code class="highlighter-rouge">A</code>; this will not be necessary if we place our subroutine in a module as described later.</p>
-</blockquote>
+
+</div>
 
 <h2 id="functions">Functions</h2>
 
@@ -4324,9 +4320,11 @@ the dimensions of the array <code class="highlighter-rouge">A</code>; this will 
 
 </span><span class="k">end</span><span class="w"> </span><span class="k">function</span><span class="w"> </span><span class="n">vector_norm</span><span class="w">
 </span></code></pre></div></div>
-<blockquote>
-  <p>In production code, the intrinsic function <code class="highlighter-rouge">norm2</code> should be used.</p>
-</blockquote>
+<div class="aside-tip">
+    
+    <p><strong>Tip:</strong> In production code, the intrinsic function <code class="highlighter-rouge">norm2</code> should be used.</p>
+
+</div>
 
 <p>To execute this function:</p>
 
@@ -4343,11 +4341,13 @@ the dimensions of the array <code class="highlighter-rouge">A</code>; this will 
 </span><span class="k">end</span><span class="w"> </span><span class="k">program</span><span class="w"> </span><span class="n">run_fcn</span><span class="w">
 </span></code></pre></div></div>
 
-<blockquote>
-  <p>It is good programming practice for functions not to modify their arguments—that is, all function arguments should be <code class="highlighter-rouge">intent(in)</code>.
+<div class="aside-tip">
+    
+    <p><strong>Tip:</strong> It is good programming practice for functions not to modify their arguments—that is, all function arguments should be <code class="highlighter-rouge">intent(in)</code>.
 Such functions are known as <code class="highlighter-rouge">pure</code> functions.
 Use subroutines if your procedure needs to modify its arguments.</p>
-</blockquote>
+
+</div>
 
 <h2 id="modules">Modules</h2>
 
@@ -4359,10 +4359,12 @@ They can contain data objects, type definitions, procedures, and interfaces.</p>
   <li>Modules automatically generate explicit interfaces required for modern procedures</li>
 </ul>
 
-<blockquote>
-  <p>It is recommended to always place functions and subroutines
+<div class="aside-tip">
+    
+    <p><strong>Tip:</strong> It is recommended to always place functions and subroutines
 within modules.</p>
-</blockquote>
+
+</div>
 
 <p><strong>Example:</strong></p>
 
@@ -4392,12 +4394,14 @@ within modules.</p>
 </span><span class="k">end</span><span class="w"> </span><span class="k">module</span><span class="w"> </span><span class="n">my_mod</span><span class="w">
 </span></code></pre></div></div>
 
-<blockquote>
-  <p>Compare this <code class="highlighter-rouge">print_matrix</code> subroutine with that written outside of a module
+<div class="aside-note">
+    
+    <p><strong>Note:</strong> Compare this <code class="highlighter-rouge">print_matrix</code> subroutine with <a href="#subroutines">that written outside of a module</a>;
 we no longer have to explicitly pass the matrix dimensions and can instead take
 advantage of <em>assumed-shape</em> arguments since the module will generate the required
 explicit interface for us. This results in a much simpler subroutine interface.</p>
-</blockquote>
+
+</div>
 
 <p>To <code class="highlighter-rouge">use</code> the module within a program:</p>
 <div class="language-fortran highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">program</span><span class="w"> </span><span class="n">use_mod</span><span class="w">
@@ -4423,9 +4427,11 @@ explicit interface for us. This results in a much simpler subroutine interface.<
 <div class="language-fortran highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">use</span><span class="w"> </span><span class="n">my_mod</span><span class="p">,</span><span class="w"> </span><span class="k">only</span><span class="p">:</span><span class="w"> </span><span class="n">printMat</span><span class="o">=&gt;</span><span class="n">print_matrix</span><span class="w">
 </span></code></pre></div></div>
 
-<blockquote>
-  <p>Each module should be written in a separate <code class="highlighter-rouge">.f90</code> source file. Modules need to be compiled prior to any program units that <code class="highlighter-rouge">use</code> them.</p>
-</blockquote>
+<div class="aside-note">
+    
+    <p><strong>Note:</strong> Each module should be written in a separate <code class="highlighter-rouge">.f90</code> source file. Modules need to be compiled prior to any program units that <code class="highlighter-rouge">use</code> them.</p>
+
+</div>
 
 
 
@@ -4433,7 +4439,7 @@ explicit interface for us. This results in a much simpler subroutine interface.<
 
         
           
-            <a href="/fortran-lang.org/learn/quickstart/operators_control_flow" style="margin-right: auto;">
+            <a href="/learn/quickstart/operators_control_flow" style="margin-right: auto;">
           
             <h3><i class="fas fa-arrow-circle-left"></i>
               Back
@@ -4443,7 +4449,7 @@ explicit interface for us. This results in a much simpler subroutine interface.<
 
         
           
-          <a href="/fortran-lang.org/learn/quickstart/derived_types"
+          <a href="/learn/quickstart/derived_types"
           style="margin-left: auto;">
             <h3>
               Next
@@ -4465,27 +4471,27 @@ explicit interface for us. This results in a much simpler subroutine interface.<
   <div class="container">
     <div class="col-wide">
     
-      <a href="/fortran-lang.org/learn/">Learn</a>
+      <a href="/learn/">Learn</a>
       
         &middot;
       
     
-      <a href="/fortran-lang.org/compilers/">Compilers</a>
+      <a href="/compilers/">Compilers</a>
       
         &middot;
       
     
-      <a href="/fortran-lang.org/community/">Community</a>
+      <a href="/community/">Community</a>
       
         &middot;
       
     
-      <a href="/fortran-lang.org/packages">Packages</a>
+      <a href="/packages">Packages</a>
       
         &middot;
       
     
-      <a href="/fortran-lang.org/news/">News</a>
+      <a href="/news/">News</a>
       
     
     </div>
@@ -4502,11 +4508,11 @@ explicit interface for us. This results in a much simpler subroutine interface.<
      
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="/fortran-lang.org/assets/js/fortranlang.js"></script>
-    <script src="/fortran-lang.org/assets/js/page_nav.js"></script>
-    <script src="/fortran-lang.org/assets/js/gh-contributors.js"></script>
-    <script src="/fortran-lang.org/assets/js/package_search.js"></script>
-    <script src="/fortran-lang.org/assets/js/package_tags.js"></script>
+    <script src="/assets/js/fortranlang.js"></script>
+    <script src="/assets/js/page_nav.js"></script>
+    <script src="/assets/js/gh-contributors.js"></script>
+    <script src="/assets/js/package_search.js"></script>
+    <script src="/assets/js/package_tags.js"></script>
     <script>
       feather.replace()
     </script>

@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Fortran Programming Language">
     <title>Array Operations - Fortran Programming Language</title>
-    <link type="application/atom+xml" rel="alternate" href="/fortran-lang.org/news.xml" title="Fortran Newsletter" />
+    <link type="application/atom+xml" rel="alternate" href="/news.xml" title="Fortran Newsletter" />
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/smoothness/jquery-ui.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.0/normalize.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <script src="https://unpkg.com/feather-icons"></script>
-    <link href="/fortran-lang.org/assets/css/main.css" rel="stylesheet">
-    <link href="/fortran-lang.org/assets/css/syntax.css" rel="stylesheet">
+    <link href="/assets/css/main.css" rel="stylesheet">
+    <link href="/assets/css/syntax.css" rel="stylesheet">
     <link rel="canonical" href="https://fortran-lang.org/learn/intrinsics/ARRAY_index" />
     <script src="https://kit.fontawesome.com/8d17d4fe97.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-    <link rel="stylesheet" href="/fortran-lang.org/assets/github-activity-0.1.5/github-activity-0.1.5.min.css">
+    <link rel="stylesheet" href="/assets/github-activity-0.1.5/github-activity-0.1.5.min.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
-    <script type="text/javascript" src="/fortran-lang.org/assets/github-activity-0.1.5/github-activity-0.1.5.min.js"></script>
+    <script type="text/javascript" src="/assets/github-activity-0.1.5/github-activity-0.1.5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js" integrity="sha256-TQq84xX6vkwR0Qs1qH5ADkP+MvH0W+9E7TdHJsoIQiM=" crossorigin="anonymous"></script>
     
     <!--[if lt IE 9]>
@@ -32,22 +32,16 @@
   <body>
     <header class="navbar">
 	 
-	<section class="front-section shaded purple"><div class="container">
-		
-		<h4>
-		We will be migrating to a new webpage soon. Please checkout issue <a href="https://github.com/fortran-lang/fortran-lang.org/issues/415" target="_blank">#415</a> and the <a href="https://github.com/fortran-lang/webpage" target="_blank">new repository</a> for details on the migration.
-		</h4>
-	</div></section>
     <div class="container">
         <nav class="navbar">
 	    <div class="container-fluid">
 	    <div class="navbar-header">
 		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
 		    <span class="sr-only">Toggle navigation</span>
-		    <img src="/fortran-lang.org/assets/img/icons/icon-menu.svg" alt="Toggle navigation" class="navbar-top-align">
+		    <img src="/assets/img/icons/icon-menu.svg" alt="Toggle navigation" class="navbar-top-align">
 		</button>
-		<a href="/fortran-lang.org/" class="navbar-brand">
-		    <img src="/fortran-lang.org/assets/img/fortran_logo_256x256.png" id="navbar-logo" alt="Fortran">
+		<a href="/" class="navbar-brand">
+		    <img src="/assets/img/fortran_logo_256x256.png" id="navbar-logo" alt="Fortran">
 		</a>
 	    </div>
 	    <div class="collapse navbar-collapse navbar-top-align" id="menu">
@@ -56,35 +50,35 @@
 		    
 		    <li class="current">
 		    
-		    <a href="/fortran-lang.org/learn/">Learn</a>
+		    <a href="/learn/">Learn</a>
 		    
 			</li>
 		
 		    
 		    <li>
 		    
-		    <a href="/fortran-lang.org/compilers/">Compilers</a>
+		    <a href="/compilers/">Compilers</a>
 		    
 			</li>
 		
 		    
 		    <li>
 		    
-		    <a href="/fortran-lang.org/community/">Community</a>
+		    <a href="/community/">Community</a>
 		    
 			</li>
 		
 		    
 		    <li>
 		    
-		    <a href="/fortran-lang.org/packages">Packages</a>
+		    <a href="/packages">Packages</a>
 		    
 			</li>
 		
 		    
 		    <li>
 		    
-		    <a href="/fortran-lang.org/news/">News</a>
+		    <a href="/news/">News</a>
 		    
 			</li>
 		
@@ -104,7 +98,7 @@
 			</a>
 		</li>
 		<li>
-			<a  href="/fortran-lang.org/news.xml" target="_blank">
+			<a  href="/news.xml" target="_blank">
 				<i class="fas fa-rss"></i> <i class="icon-link" >RSS Feed</i>
 			</a>
 		</li>
@@ -609,7 +603,7 @@
     
   
 
-  <a href="/fortran-lang.org/learn#book-index">
+  <a href="/learn#book-index">
     <i class="fas fa-arrow-circle-left"></i>
     Back to Learn Fortran index 
   </a>
@@ -662,7 +656,7 @@
       <td> </td>
       <td> </td>
       <td> </td>
-      <td><a href="/fortran-lang.org/learn/intrinsics/MERGE"><strong>merge</strong></a></td>
+      <td><a href="/learn/intrinsics/MERGE"><strong>merge</strong></a></td>
       <td> </td>
       <td>● Merge variables</td>
     </tr>
@@ -672,7 +666,7 @@
       <td> </td>
       <td> </td>
       <td> </td>
-      <td><a href="/fortran-lang.org/learn/intrinsics/PACK"><strong>pack</strong></a></td>
+      <td><a href="/learn/intrinsics/PACK"><strong>pack</strong></a></td>
       <td> </td>
       <td>● Pack an array into an array of rank one</td>
     </tr>
@@ -682,7 +676,7 @@
       <td> </td>
       <td> </td>
       <td> </td>
-      <td><a href="/fortran-lang.org/learn/intrinsics/SPREAD"><strong>spread</strong></a></td>
+      <td><a href="/learn/intrinsics/SPREAD"><strong>spread</strong></a></td>
       <td> </td>
       <td>● Add a dimension to an array</td>
     </tr>
@@ -692,7 +686,7 @@
       <td> </td>
       <td> </td>
       <td> </td>
-      <td><a href="/fortran-lang.org/learn/intrinsics/UNPACK"><strong>unpack</strong></a></td>
+      <td><a href="/learn/intrinsics/UNPACK"><strong>unpack</strong></a></td>
       <td> </td>
       <td>● Store the elements of a vector in an array of higher rank</td>
     </tr>
@@ -704,7 +698,7 @@
       <td> </td>
       <td> </td>
       <td> </td>
-      <td><a href="/fortran-lang.org/learn/intrinsics/ALLOCATED"><strong>allocated</strong></a></td>
+      <td><a href="/learn/intrinsics/ALLOCATED"><strong>allocated</strong></a></td>
       <td> </td>
       <td>● Status of an allocatable entity</td>
     </tr>
@@ -714,7 +708,7 @@
       <td> </td>
       <td> </td>
       <td> </td>
-      <td><a href="/fortran-lang.org/learn/intrinsics/IS_CONTIGUOUS"><strong>is_contiguous</strong></a></td>
+      <td><a href="/learn/intrinsics/IS_CONTIGUOUS"><strong>is_contiguous</strong></a></td>
       <td> </td>
       <td>● Test if object is contiguous</td>
     </tr>
@@ -724,7 +718,7 @@
       <td> </td>
       <td> </td>
       <td> </td>
-      <td><a href="/fortran-lang.org/learn/intrinsics/LBOUND"><strong>lbound</strong></a></td>
+      <td><a href="/learn/intrinsics/LBOUND"><strong>lbound</strong></a></td>
       <td> </td>
       <td>● Lower dimension bounds of an array</td>
     </tr>
@@ -734,7 +728,7 @@
       <td> </td>
       <td> </td>
       <td> </td>
-      <td><a href="/fortran-lang.org/learn/intrinsics/RANK"><strong>rank</strong></a></td>
+      <td><a href="/learn/intrinsics/RANK"><strong>rank</strong></a></td>
       <td> </td>
       <td>● Rank of a data object</td>
     </tr>
@@ -744,7 +738,7 @@
       <td> </td>
       <td> </td>
       <td> </td>
-      <td><a href="/fortran-lang.org/learn/intrinsics/SHAPE"><strong>shape</strong></a></td>
+      <td><a href="/learn/intrinsics/SHAPE"><strong>shape</strong></a></td>
       <td> </td>
       <td>● Determine the shape of an array</td>
     </tr>
@@ -754,7 +748,7 @@
       <td> </td>
       <td> </td>
       <td> </td>
-      <td><a href="/fortran-lang.org/learn/intrinsics/SIZE"><strong>size</strong></a></td>
+      <td><a href="/learn/intrinsics/SIZE"><strong>size</strong></a></td>
       <td> </td>
       <td>● Determine the size of an array</td>
     </tr>
@@ -764,7 +758,7 @@
       <td> </td>
       <td> </td>
       <td> </td>
-      <td><a href="/fortran-lang.org/learn/intrinsics/UBOUND"><strong>ubound</strong></a></td>
+      <td><a href="/learn/intrinsics/UBOUND"><strong>ubound</strong></a></td>
       <td> </td>
       <td>● Upper dimension bounds of an array</td>
     </tr>
@@ -776,7 +770,7 @@
       <td> </td>
       <td> </td>
       <td> </td>
-      <td><a href="/fortran-lang.org/learn/intrinsics/MAXLOC"><strong>maxloc</strong></a></td>
+      <td><a href="/learn/intrinsics/MAXLOC"><strong>maxloc</strong></a></td>
       <td> </td>
       <td>● Location of the maximum value within an array</td>
     </tr>
@@ -786,7 +780,7 @@
       <td> </td>
       <td> </td>
       <td> </td>
-      <td><a href="/fortran-lang.org/learn/intrinsics/MINLOC"><strong>minloc</strong></a></td>
+      <td><a href="/learn/intrinsics/MINLOC"><strong>minloc</strong></a></td>
       <td> </td>
       <td>● Location of the minimum value within an array</td>
     </tr>
@@ -796,7 +790,7 @@
       <td> </td>
       <td> </td>
       <td> </td>
-      <td><a href="/fortran-lang.org/learn/intrinsics/FINDLOC"><strong>findloc</strong></a></td>
+      <td><a href="/learn/intrinsics/FINDLOC"><strong>findloc</strong></a></td>
       <td> </td>
       <td>● Locate first element of ARRAY identified by MASK along dimension DIM having a value</td>
     </tr>
@@ -808,7 +802,7 @@
       <td> </td>
       <td> </td>
       <td> </td>
-      <td><a href="/fortran-lang.org/learn/intrinsics/TRANSPOSE"><strong>transpose</strong></a></td>
+      <td><a href="/learn/intrinsics/TRANSPOSE"><strong>transpose</strong></a></td>
       <td> </td>
       <td>● Transpose an array of rank two</td>
     </tr>
@@ -820,7 +814,7 @@
       <td> </td>
       <td> </td>
       <td> </td>
-      <td><a href="/fortran-lang.org/learn/intrinsics/ALL"><strong>all</strong></a></td>
+      <td><a href="/learn/intrinsics/ALL"><strong>all</strong></a></td>
       <td> </td>
       <td>● Determines if all values in the logical array are true.</td>
     </tr>
@@ -830,7 +824,7 @@
       <td> </td>
       <td> </td>
       <td> </td>
-      <td><a href="/fortran-lang.org/learn/intrinsics/ANY"><strong>any</strong></a></td>
+      <td><a href="/learn/intrinsics/ANY"><strong>any</strong></a></td>
       <td> </td>
       <td>● Determines if any values in the logical array are true.</td>
     </tr>
@@ -840,7 +834,7 @@
       <td> </td>
       <td> </td>
       <td> </td>
-      <td><a href="/fortran-lang.org/learn/intrinsics/COUNT"><strong>count</strong></a></td>
+      <td><a href="/learn/intrinsics/COUNT"><strong>count</strong></a></td>
       <td> </td>
       <td>● Count function</td>
     </tr>
@@ -850,7 +844,7 @@
       <td> </td>
       <td> </td>
       <td> </td>
-      <td><a href="/fortran-lang.org/learn/intrinsics/MAXVAL"><strong>maxval</strong></a></td>
+      <td><a href="/learn/intrinsics/MAXVAL"><strong>maxval</strong></a></td>
       <td> </td>
       <td>● Determines the maximum value in an array or row</td>
     </tr>
@@ -860,7 +854,7 @@
       <td> </td>
       <td> </td>
       <td> </td>
-      <td><a href="/fortran-lang.org/learn/intrinsics/MINVAL"><strong>minval</strong></a></td>
+      <td><a href="/learn/intrinsics/MINVAL"><strong>minval</strong></a></td>
       <td> </td>
       <td>● Minimum value of an array</td>
     </tr>
@@ -870,7 +864,7 @@
       <td> </td>
       <td> </td>
       <td> </td>
-      <td><a href="/fortran-lang.org/learn/intrinsics/PRODUCT"><strong>product</strong></a></td>
+      <td><a href="/learn/intrinsics/PRODUCT"><strong>product</strong></a></td>
       <td> </td>
       <td>● Product of array elements</td>
     </tr>
@@ -880,7 +874,7 @@
       <td> </td>
       <td> </td>
       <td> </td>
-      <td><a href="/fortran-lang.org/learn/intrinsics/SUM"><strong>sum</strong></a></td>
+      <td><a href="/learn/intrinsics/SUM"><strong>sum</strong></a></td>
       <td> </td>
       <td>● Sum the elements of an array</td>
     </tr>
@@ -892,7 +886,7 @@
       <td> </td>
       <td> </td>
       <td> </td>
-      <td><a href="/fortran-lang.org/learn/intrinsics/RESHAPE"><strong>reshape</strong></a></td>
+      <td><a href="/learn/intrinsics/RESHAPE"><strong>reshape</strong></a></td>
       <td> </td>
       <td>● Function to reshape an array</td>
     </tr>
@@ -928,27 +922,27 @@
   <div class="container">
     <div class="col-wide">
     
-      <a href="/fortran-lang.org/learn/">Learn</a>
+      <a href="/learn/">Learn</a>
       
         &middot;
       
     
-      <a href="/fortran-lang.org/compilers/">Compilers</a>
+      <a href="/compilers/">Compilers</a>
       
         &middot;
       
     
-      <a href="/fortran-lang.org/community/">Community</a>
+      <a href="/community/">Community</a>
       
         &middot;
       
     
-      <a href="/fortran-lang.org/packages">Packages</a>
+      <a href="/packages">Packages</a>
       
         &middot;
       
     
-      <a href="/fortran-lang.org/news/">News</a>
+      <a href="/news/">News</a>
       
     
     </div>
@@ -965,11 +959,11 @@
      
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="/fortran-lang.org/assets/js/fortranlang.js"></script>
-    <script src="/fortran-lang.org/assets/js/page_nav.js"></script>
-    <script src="/fortran-lang.org/assets/js/gh-contributors.js"></script>
-    <script src="/fortran-lang.org/assets/js/package_search.js"></script>
-    <script src="/fortran-lang.org/assets/js/package_tags.js"></script>
+    <script src="/assets/js/fortranlang.js"></script>
+    <script src="/assets/js/page_nav.js"></script>
+    <script src="/assets/js/gh-contributors.js"></script>
+    <script src="/assets/js/package_search.js"></script>
+    <script src="/assets/js/package_tags.js"></script>
     <script>
       feather.replace()
     </script>
