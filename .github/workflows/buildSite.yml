@@ -23,8 +23,8 @@ jobs:
     # Checkout default branch into SRC_DIR
     - name: Checkout default branch
       uses: actions/checkout@v2
-      with:
-        path: ${{env.SRC_DIR}}
+      # with:
+      #   path: ${{env.SRC_DIR}}
 
     # Checkout existing gh-pages branch into PUBLISH_DIR
     - name: Checkout gh-pages
@@ -40,17 +40,17 @@ jobs:
 
     
     # Install ruby 2.7.x
-    - uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: 2.7
+    # - uses: ruby/setup-ruby@v1
+    #   with:
+    #     ruby-version: 2.7
 
     # Setup Jekyll in SRC_DIR
-    - name: Setup Jekyll
-      run: |
-        cd ${{env.SRC_DIR}}
-        sudo gem install bundler
-        bundle config path .bundle
-        bundle install
+    # - name: Setup Jekyll
+    #   run: |
+    #     cd ${{env.SRC_DIR}}
+    #     sudo gem install bundler
+    #     bundle config path .bundle
+    #     bundle install
     
     # Download latest fpm-registry index
     - name: Download fpm-registry index
